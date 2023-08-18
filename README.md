@@ -1,1 +1,1 @@
-# shop-mvc-php
+# PHPShop

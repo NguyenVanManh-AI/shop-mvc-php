@@ -1,0 +1,29 @@
+users
+    + id 
+    + email 
+    + password 
+    + fullname
+    + avatar
+    + gender  
+    + create_at 
+    + update_at 
+
+products 
+    + id 
+    + id_category 
+    + id_user
+    + name  
+    + price 
+    + describe
+    + image
+    + create_at 
+    + update_at
+
+category 
+    + id 
+    + name 
+    + create_at 
+    + update_at
+
+Show sản phẩm sẽ là một trang => gồm nhiều sản phẩm theo dạng ô , chứ không phải table 
+

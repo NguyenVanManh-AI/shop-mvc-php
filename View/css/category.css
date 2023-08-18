@@ -1,0 +1,130 @@
+#title_update_infor {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    color: #0085FF;
+}
+
+label {
+    color: #0085FF;
+}
+
+#big_update > img {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    opacity: 0.9;
+    min-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+#main-component {
+    background-color: #000;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgb(204, 219, 232) -3px -3px 6px 1px inset;
+    padding: 30px 40px;
+    border-radius: 10px;
+    position: relative;
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.545);
+}
+
+#main-component #title_update_infor {
+    font-weight: bold;
+}
+
+.imgproduct {
+    width: 220px;
+    height: 100px;
+}
+.imgproduct img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain;
+}
+
+.carousel-control-next {
+    margin-right: 10px;
+} 
+
+.carousel-control-prev-icon {
+    background-color: #0085FF;
+    border-radius: 6px;
+    border: 3px solid #0085FF;
+}
+
+.carousel-control-next-icon {
+    background-color: #0085FF;
+    border-radius: 6px;
+    border: 3px solid #0085FF;
+}
+
+/*  */
+.item-category {
+    width:30%;
+    height: 60px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 20px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+.item-category .name {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-content: center;
+    line-height: 60px;
+    height: 60px;
+    font-size: 16px;
+    letter-spacing:1px;
+    word-spacing: 1px;
+}
+
+.item-category .name span {
+    position: absolute;
+    top:0px;
+    left:10px;
+}
+
+.item-category .gr {
+    position: absolute;
+    top:60px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 0px 12%;
+    height: 60px;
+    background-color: white;
+    transition: top 0.5s ease;
+}
+
+.item-category .gr .btn {
+    height: 34px;
+    width: 90px;
+    font-size: 16px;
+}
+
+.item-category:hover .gr { 
+    top:0px
+} 
+
+#btn-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
